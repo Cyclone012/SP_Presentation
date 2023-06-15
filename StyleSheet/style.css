@@ -36,12 +36,6 @@ body {
     color: #fff;
 }
 
-@media (max-width: 991.20px) {
-    body {
-        height: 100%;
-    }
-}
-
 .card {
     margin-bottom: 1.4rem;
 }
@@ -57,7 +51,6 @@ body {
 
 .w-35 {
     width: 35% !important;
-
 }
 
 .text-green {
@@ -84,15 +77,6 @@ body {
     border-radius: 0 1em 1em 0;
 }
 
-.carousel-item img {
-    display: none;
-}
-  
-.carousel-item:not(:hover) img {
-    display: block;
-    opacity: 1;
-}
-
 @media (max-width:767.20px) {
     .l-slide-size {
         width: fit-content;
@@ -100,5 +84,11 @@ body {
 
     .w-35 {
         width: 75% !important;
+    }
+}
+
+@media (max-width: 576.20px) {
+    .mt-3 {
+        font-size: 12px;
     }
 }
