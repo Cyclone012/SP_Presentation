@@ -87,8 +87,8 @@ body {
     }
 }
 
-@media (max-width: 991.20px) {
-    .w-35 {
-        width: 35% !important;
+@media (max-width: 576.20px) {
+    .mt-3 {
+        font-size: 12px;
     }
 }
